@@ -1,0 +1,18 @@
+print('Program deteksi waktu')
+print('-----------------------------------')
+
+jam = int(input('Sekarang jam berapa?:'))
+if 4 <= jam <= 10:
+    print('Sekarang Pagi Hari..')
+elif 11 <= jam <= 14:
+    print('Sekarang Siang Hari..')
+elif 15 <= jam <= 17:
+    print('Sekarang Sore Hari..')
+elif 18 == jam:
+    print('Sekarang Petang Hari..')
+elif 19 <= jam <= 24:
+    print('Sekarang Malam Hari..')
+elif 1 <= jam <= 3:
+    print('Sekarang Dini Hari..')
+else:
+    print('---Masukan angka yang benar---')
